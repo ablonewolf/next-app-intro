@@ -7,7 +7,7 @@
 }
 
 .image {
-    @apply pt-6 overflow-hidden rounded-tl-md rounded-tr-md;
+    @apply overflow-hidden rounded-tl-md rounded-tr-md;
 }
 
 .content {
