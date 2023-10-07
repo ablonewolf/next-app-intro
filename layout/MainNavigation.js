@@ -1,5 +1,4 @@
 import classes from './MainNavigation.module.css';
-
 export const MainNavigation = () => {
     return (
         <header className={classes.header}>

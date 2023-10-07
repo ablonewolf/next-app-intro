@@ -1,4 +1,4 @@
-import MainNavigation from './MainNavigation';
+import {MainNavigation} from './MainNavigation';
 import classes from './Layout.module.css';
 
 export const Layout = (props) => {
