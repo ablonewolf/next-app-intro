@@ -21,7 +21,17 @@ function HomePage(props) {
     return <MeetupList meetups={props.meetups}/>
 }
 
+/*export async function getServerSideProps() {
+    // fetch data from an api
+    return {
+        props: {
+            meetups: demoMeetupList
+        }
+    };
+}*/
+
 export async function getStaticProps() {
+    // fetch data from an api
     return {
         props: {
             meetups: demoMeetupList
