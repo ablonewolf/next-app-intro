@@ -1,15 +1,15 @@
 import classes from './MeetupDetail.module.css'
+
 export const MeetupDetail = (props) => {
-    console.log(props.image)
     return (
         <section className={classes.detail}>
             <img
-                src={props.image}
-                alt={props.title}
+                src={props.meetupDetail.image}
+                alt={props.meetupDetail.title}
             />
-            <h1>{props.title}</h1>
-            <address>{props.address}</address>
-            <p>{props.description}</p>
+            <h1>{props.meetupDetail.title}</h1>
+            <address>{props.meetupDetail.address}</address>
+            <p>{props.meetupDetail.description}</p>
         </section>
     )
 }
